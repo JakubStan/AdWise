@@ -1,0 +1,176 @@
+<!-- start Simple Custom CSS and JS -->
+<style type="text/css">
+.ehf-header #masthead {
+    z-index: 99;
+    position: fixed;
+    left: 0;
+    right: 0;
+    width: 100%;
+}
+
+
+
+
+menu{
+	margin: 0 auto;
+	width: 100%;
+	padding: 48px 40px 40px 40px  !important;
+	position: fixed;
+	left: 0;
+	right: 0;
+	top: 0;
+	background: linear-gradient(360deg, rgba(15, 18, 25, 0) 0%, #0F1219 100%);
+
+}
+
+
+
+.navbar {
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px !important;
+}
+
+.navbar::after{
+	display: none;
+}
+
+.logo{ width: 297px; height: 39px !important; }
+
+.menu{
+	width: 50% !important;
+}
+
+.menu-toggle {
+  cursor: pointer;
+  display: none;
+}
+
+.menu-items a {
+	font-family: "Nunito Sans", sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 24px;
+	color: white;
+}
+
+.bar {
+  width: 25px;
+  height: 1px;
+  background-color: #fff;
+  margin: 5px 0;
+}
+
+.menu {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  justify-content: space-between; 
+  align-items: center; 
+  width: 100%;
+}
+
+
+
+.menu-items{
+	display: flex;
+	align-items: center;
+}
+
+
+
+.dissolve-animation {
+  animation-name: dissolve;
+  animation-timing-function: ease-out;
+  animation-duration: 300ms;
+}
+
+@keyframes dissolve {
+
+}
+
+.left{
+	gap: 24px;
+}
+
+.right{
+	gap: 16px;
+}
+
+.apply{
+	background-color: white;
+    width: 99px;
+    height: 48px;
+    padding: 12px 24px 12px 24px;
+    border-radius: 23px;
+    color: #0f1219 !important;
+}
+
+a:hover{
+	text-decoration: none;
+}
+
+@media only screen and (max-width: 768px) {
+	
+	.menu-items{
+		align-items: center;
+		flex-direction: column;
+	}
+	
+	.menu-items a {
+		text-align: center;
+	}
+	
+	menu {    
+    	padding: 40px 20px !important;
+	}
+	
+	.logo{
+		width: 155px;
+		height: 21px !important;
+	}
+	
+  .menu {
+    display: none;
+  }
+
+	.left {
+    gap: 5px;
+}
+	
+  .menu-toggle {
+    display: block;
+  }
+
+  .menu.active {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 30px;
+    left: 0;
+	right: 0;
+    width: 100% !important;
+    background-color: #333;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  .menu.active li {
+    text-align: center;
+    margin: 10px 0;
+  }
+  
+  .menu.active li:last-child {
+    margin-bottom: 0;
+  }
+  
+  .menu.active li:nth-child(1),
+  .menu.active li:nth-child(2) {
+    display: none;
+  }
+}
+</style>
+<!-- end Simple Custom CSS and JS -->

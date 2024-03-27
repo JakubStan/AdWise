@@ -1,0 +1,192 @@
+<!-- start Simple Custom CSS and JS -->
+<style type="text/css">
+.swiper-slide-active {
+    width: 35vw !important;
+	margin-right: 15vw !important;
+}
+
+.swiper-slide {
+	border-bottom: 1px solid  #A7B6BD;
+}
+
+.wpcp-all-captions{
+	padding: 0 !important;
+}
+
+
+
+.wpcp-carousel-section.nav-vertical-center .swiper-button-next {
+    right: 0 !important;
+    left: 0% !important;
+}
+
+.wpcp-carousel-section.nav-vertical-center .swiper-button-prev {
+    left: 10% !important;
+}
+
+
+.wpcp-carousel-section.wpcp-standard {
+    width: 66vw !important;
+	margin-left: -10vw;
+}
+
+.quote{
+	width: 56px;
+	height: 56px !important;
+	margin-bottom: 30px !important;
+}
+
+.swiper-slide-active{
+	margin-left: 10vw;
+}
+
+.swiper-slide-next{
+	width: 20vw !important;
+}
+
+.skip-lazy{
+	width: 64px !important;
+	height: 64px !important;
+}
+
+.wpcp-single-item:hover img {
+    -webkit-transform: none !important;
+    -moz-transform: none !important;
+    transform: none !important;
+}
+
+.wpcp-post-meta h5{
+	font-family: Clash Display;
+	font-size: 24px;
+	font-weight: 400;
+	line-height: 32px;
+	text-align: left;
+	color: white !important;
+}
+
+.wpcp-post-content p{
+	font-family: Clash Display;
+	font-size: 24px;
+	font-weight: 400;
+	line-height: 32px;
+	color: #A7B6BD;
+	height: 160px;
+    width: 612px;
+}
+
+.autor-img{
+	display: flex;
+    align-items: center;
+	margin-bottom: 25px;
+	
+}
+
+.wpcp-post-meta{
+	margin-bottom: 0 !important;
+    margin-left: 15px !important;
+}
+
+.wpcp-post-meta li h5{
+	margin-bottom: 0px !important;	
+}
+
+
+.swiper-slide { 
+    height: 382px !important;
+}
+
+
+.swiper-wrapper{
+	position: relative;
+}
+
+
+
+.wpcp-prev-button, .wpcp-next-button {
+	width: 48px !important;
+    height: 48px !important;
+    border: 1px solid #0F1219 !important;
+    background-color: white !important;
+    border-radius: 100% !important;
+
+}
+
+.wpcp-prev-button img, .wpcp-next-button img{
+	width: 12px;
+}
+
+
+.gradient-bg{
+	background: linear-gradient(270deg, rgba(15, 18, 25, 0) 0%, #0F1219 100%);
+    position: absolute;
+    height: 284px;
+    width: 561px;
+    top: 0;
+    bottom: 0;
+    right: -58%;
+    z-index: 9999999999999999;
+    transform: rotate(90deg);
+}
+
+.wpcp-carousel-section.nav-vertical-center .swiper-button-next, .wpcp-carousel-section.nav-vertical-center .swiper-button-prev {
+    margin-top: 215px !important;
+}
+
+
+@media (max-width: 768px) {
+	
+
+	
+	.e-con.e-flex {align-items: center;}
+
+	
+	.wpcp-carousel-section.nav-vertical-center .swiper-button-next, .wpcp-carousel-section.nav-vertical-center .swiper-button-prev {
+    	margin-top: 220px !important;
+	}
+	
+	.wpcp-carousel-section.nav-vertical-center .swiper-button-next {
+		left: -0% !important;
+	}
+
+	.wpcp-carousel-section.nav-vertical-center .swiper-button-prev {
+		left: 20% !important;
+	}
+	
+	.wpcp-carousel-section.wpcp-standard {
+    	width: 100% !important;
+    	margin: 0;
+	}
+	
+	.swiper-slide-active {
+    	margin-right: 0vw !important;
+		margin-left: 0vw !important;
+	}
+	
+	.swiper-slide-active {
+    	width: 100% !important;
+   		margin-right: 0;
+	}
+	
+	.swiper-slide-next {
+    	width: 0vw !important;
+    	left: 0 !important;
+	}
+	
+	.wpcp-post-content p {
+    	height: auto;
+    	width: auto;
+		font-size: 21px;	
+		line-height: 25.83px;
+		text-align: left;
+	}
+	
+	.gradient-bg{
+		display: none;
+	}
+	
+	.wpcp-carousel-section .wpcp-single-item {
+    	max-width: 326px;
+	}
+}
+</style>
+<!-- end Simple Custom CSS and JS -->

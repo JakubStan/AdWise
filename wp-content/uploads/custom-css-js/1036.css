@@ -1,0 +1,26 @@
+<!-- start Simple Custom CSS and JS -->
+<style type="text/css">
+#Rectangle{
+	position: relative;
+}
+
+
+#Rectangle::before{
+	content: '';
+    position: absolute;
+    background: linear-gradient(180deg, rgba(15, 18, 25, 0) 0%, #0F1219 100%);
+    height: 100%;
+    transform: rotate(90deg);
+    width: 489px;
+    height: 186px;
+    top: 24%;  
+    right: -81%;
+    left: auto;
+}
+
+@media (max-width: 768px) {
+	#Rectangle::before{
+		display: none;
+	}
+}</style>
+<!-- end Simple Custom CSS and JS -->

@@ -1,0 +1,45 @@
+<!-- start Simple Custom CSS and JS -->
+<style type="text/css">
+.items{
+	display: flex;
+	justify-content: column; 
+	flex-direction: column;
+}
+
+@media (max-width: 768px) {
+	.item {
+		margin-top: 64px !important;
+		margin-bottom: 0px !important
+	}
+}
+
+.items .item:nth-of-type(2) {
+	margin-top: 156px;
+	margin-bottom: 156px;
+}
+
+
+h3{
+	font-family: Clash Display,sans-serif;
+	font-size: 48px;
+	font-weight: 400;
+	line-height: 60px;
+	text-align: left;
+}
+
+.number{
+	color: #7855DA !important;
+}
+
+.title{
+	color: white;
+}
+
+P{
+	font-family: Nunito Sans;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 24px;
+	text-align: left;
+}</style>
+<!-- end Simple Custom CSS and JS -->

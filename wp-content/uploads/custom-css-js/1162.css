@@ -1,0 +1,25 @@
+<!-- start Simple Custom CSS and JS -->
+<style type="text/css">
+.Rectangles{
+     display: flex;
+     height: 100%;	
+}
+   
+
+.Rectangles img{
+    height: 100%;
+	width: 19px;
+	background: linear-gradient(90deg, rgba(255, 255, 255, 0.01) 0%, rgba(0, 0, 0, 0.2) 71.35%, rgba(255, 255, 255, 0.01) 100%);
+background-blend-mode: overlay;
+	margin-right:-2px;
+
+}
+
+#Rectangles{
+	 position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+	z-index: -1;
+}</style>
+<!-- end Simple Custom CSS and JS -->
